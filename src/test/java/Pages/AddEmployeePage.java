@@ -38,7 +38,7 @@ public class AddEmployeePage  {
 
 // driver needs to be initalzied
     public AddEmployeePage(){
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(CommonMethods.driver, this);
     }
 
 }

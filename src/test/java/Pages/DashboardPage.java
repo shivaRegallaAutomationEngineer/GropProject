@@ -22,7 +22,7 @@ public class DashboardPage  {
 
 
     public DashboardPage(){
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(CommonMethods.driver, this);
     }
 
 }
